@@ -26,6 +26,7 @@ type Props = {
   color2?: string
   blur?: number
   opacity?: number
+  rotate?: number
 }
 
 export const Breath = ({
@@ -33,7 +34,8 @@ export const Breath = ({
   color1 = '#A0C3D2',
   color2 = '#9DF1DF',
   blur = 40,
-  opacity = 0.3
+  opacity = 0.3,
+  rotate = Math.PI
 }: Props): ReactElement => {
   const center = useWindowCenter()
 
@@ -43,7 +45,7 @@ export const Breath = ({
   })
 
   const transform = useComputedValue(() => {
-    return [{ rotate: mix(progress.current, 1.5 * Math.PI, 0) }]
+    return [{ rotate: mix(progress.current, rotate, 0) }]
   }, [progress])
 
   return (

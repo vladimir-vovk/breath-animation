@@ -8,12 +8,14 @@
 <img src="./screen-1.gif" width="200"></img>
 <img src="./screen-2.gif" width="200"></img>
 
+You can use this animation in your project. Please check the `src/Breath.tsx` component.
+
 ## Quick start
 
 1. Clone the repo.
 2. Change directory to the project.
 3. Run `yarn start` to start the Metro Bundler.
-4. Press `i` to start the iOS simulator, `a` to run the Android emulator or 'w' for Web.📱
+4. Press `i` to start the iOS simulator, `a` to run the Android emulator or `w` for Web.📱
 
 ## Available commands
 

@@ -5,13 +5,8 @@
 <h1 align="center">Breathing Animation</h1>
 <br>
 
-<video width="200">
-  <source src="screen-1.mp4">
-</video>
-
-<video width="200">
-  <source src="screen-2.mp4">
-</video>
+<img src="./screen-1.gif" width="200"></img>
+<img src="./screen-2.gif" width="200"></img>
 
 ## Quick start
 

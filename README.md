@@ -1,5 +1,5 @@
 <p align="center">
-  A simple "breathing" animation with React Native and Skia library.
+  A breathing animation with React Native and Skia library.
 </p>
 
 <h1 align="center">Breathing Animation</h1>
@@ -7,6 +7,8 @@
 
 <img src="./screen-1.gif" width="200"></img>
 <img src="./screen-2.gif" width="200"></img>
+
+Inspired by the [Skia Docs](https://shopify.github.io/react-native-skia/docs/getting-started/installation). 🎨
 
 You can use this animation in your project. Please check the `src/Breath.tsx` component.
 
